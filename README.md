@@ -25,10 +25,6 @@
 
 将这个库拉到本地
 
-```shell
-git clone https://gitee.com/pandavips/my-vue3.git
-```
-
 安装依赖,我是用的是`pnpm`
 
 ```shell
