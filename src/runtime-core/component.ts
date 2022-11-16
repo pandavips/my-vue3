@@ -24,7 +24,7 @@ export function createComponentInstance(vnode, parent) {
   return component;
 }
 export function setupComponent(instance) {
-  const { props, children, shapeFlag } = instance.vnode;
+  const { props, children } = instance.vnode;
   // 处理props
   initProps(instance, props);
   // 处理slots
